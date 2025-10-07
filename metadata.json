@@ -1,0 +1,5 @@
+{
+  "name": "Kick AutoHoster",
+  "description": "A simulation of a Kick auto-hosting tool for the Kick Developer Bounty 2025. It allows users to select friends for an auto-host rotation, receive browser notifications, and persists settings locally without requiring any login or real API credentials.",
+  "requestFramePermissions": []
+}
