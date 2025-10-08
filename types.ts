@@ -1,6 +1,7 @@
 
-export interface Friend {
+export interface KickUser {
   id: number;
-  name: string;
-  avatarUrl: string;
+  username: string;
+  slug: string;
+  profile_picture: string;
 }
