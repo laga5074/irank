@@ -11,7 +11,7 @@ export const KICK_REDIRECT_URI = process.env.REACT_APP_REDIRECT_URI || 'https://
 export const KICK_AUTH_URL = 'https://kick.com/oauth2/authorize';
 export const KICK_TOKEN_URL = 'https://kick.com/api/v2/oauth/token'; // Simulated endpoint
 export const KICK_API_BASE_URL = 'https://kick.com/api/v2'; // Simulated API base
-export const KICK_SCOPES = 'read:user read:friends write:host';
+export const KICK_SCOPES = 'read:user,read:friends,write:host';
 
 // --- Mock Data for API Simulation ---
 
