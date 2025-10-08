@@ -5,8 +5,8 @@ import type { KickUser } from './types';
 export const KICK_CLIENT_ID = process.env.REACT_APP_KICK_CLIENT_ID || '01K6YK14KMMAXZ7QS14TA6CKGC';
 
 // IMPORTANT: This Redirect URI must be authorized in your Kick Developer App settings.
-// In Netlify, this would be set to your site's URL, e.g., 'https://kick-autohoster.netlify.app/callback'
-export const KICK_REDIRECT_URI = process.env.REACT_APP_REDIRECT_URI || (window.location.origin + '/callback');
+// It is now hardcoded to the correct value for the bounty submission.
+export const KICK_REDIRECT_URI = process.env.REACT_APP_REDIRECT_URI || 'https://kick-autohoster.netlify.app/callback';
 
 export const KICK_AUTH_URL = 'https://kick.com/oauth2/authorize';
 export const KICK_TOKEN_URL = 'https://kick.com/api/v2/oauth/token'; // Simulated endpoint
